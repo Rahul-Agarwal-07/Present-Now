@@ -11,7 +11,7 @@ import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.Surface
+import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.presentationmaker.ui.theme.PresentationMakerTheme
@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
         appUpdater
             .setDisplay(Display.DIALOG)
             .setUpdateFrom(UpdateFrom.JSON)
-            .setUpdateJSON("https://raw.githubusercontent.com/Rahul-Agarwal-07/About-Me/refs/heads/main/updatelog.json")
+            .setUpdateJSON("https://raw.githubusercontent.com/Rahul-Agarwal-07/Present-Now/refs/heads/master/app/updatelog.json")
             .start()
 
         val googleSignIn = GoogleSignIn(context = this)
