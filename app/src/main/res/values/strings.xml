@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Present Now</string>
+    <string name="signinkey">822844707246-7d716l5rhlnndcfkg53l3e14gpk5p18r.apps.googleusercontent.com</string>
+    <string name="default_sign_id">822844707246-7d716l5rhlnndcfkg53l3e14gpk5p18r.apps.googleusercontent.com</string>
+    <string name="menu_drawer">Menu Drawer</string>
+    <string name="exit_group">Exit Group</string>
+</resources>
