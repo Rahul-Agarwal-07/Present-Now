@@ -5,14 +5,7 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        create("release") {
-            storeFile = file("C:\\Users\\iamrp\\Downloads\\PresentationMaker\\key.jks")
-            storePassword = "IAMRPG07"
-            keyAlias = "key0"
-            keyPassword = "IAMRPG07"
-        }
-    }
+    
     namespace = "com.example.presentationmaker"
     compileSdk = 35
 
