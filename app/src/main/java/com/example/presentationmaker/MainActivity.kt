@@ -33,15 +33,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-
-        val appUpdater = AppUpdater(this)
-
-        appUpdater
-            .setDisplay(Display.DIALOG)
-            .setUpdateFrom(UpdateFrom.JSON)
-            .setUpdateJSON("https://raw.githubusercontent.com/Rahul-Agarwal-07/Present-Now/refs/heads/master/app/updatelog.json")
-            .start()
-
         val googleSignIn = GoogleSignIn(context = this)
         val currUser = googleSignIn.getUserId()
 
